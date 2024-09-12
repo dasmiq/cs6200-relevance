@@ -56,6 +56,6 @@ Each `<topic>` tag should contain an `<id>`, with the URL of the Research Guide,
 * a `<rel>` tag containing 1 for relevant or 0 for non-relevant, and
 * a `<text>` tag, if the document is relevant, containing the text of the relevant passage.
 
-To find the text of a newspaper page, click on the Text link just above the image.  For example, [here is the text of the first result for the Bicycle Craze topic](https://chroniclingamerica.loc.gov/lccn/sn85058130/1889-02-24/ed-1/seq-6/ocr/).  (Note that you could also construct this link by appending `/ocr` to the main URL for the newspaper page.) Select the text of the relevant passage and copy it into the `<text>` tag for the result.
+In recording page URLs, please remove the information after `#words=` used to highlight search terms.  To find the text of a newspaper page, click on the Text link just above the image.  For example, [here is the text of the first result for the Bicycle Craze topic](https://chroniclingamerica.loc.gov/lccn/sn85058130/1889-02-24/ed-1/seq-6/ocr/).  (Note that you could also construct this link by appending `/ocr` to the main URL for the newspaper page.) Select the text of the relevant passage and copy it into the `<text>` tag for the result.
 
 Once you have added all this information for three topics to the `topics.xml` file, check in your changes and push them to GitHub.
