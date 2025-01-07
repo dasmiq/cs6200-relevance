@@ -27,7 +27,7 @@ You should select relevant passages for at least ten of the documents list on yo
     <id>https://guides.loc.gov/chronicling-america-bicycle-craze</id>
     <results>
       <result>
-	<id>https://www.loc.gov/resource/sn85058130/1889-02-24/ed-1/?sp=6&q=bicycles+safety</id>
+	<id>https://www.loc.gov/resource/sn85058130/1889-02-24/ed-1/?sp=6&amp;q=bicycles+safety</id>
 	<rel>1</rel>
 	<text>THE WORLD ON WHEELS
 The Improvements Made The
@@ -35,7 +35,7 @@ The Improvements Made The
       </text>
       </result>
       <result>
-	<id>https://www.loc.gov/resource/sn85058130/1889-03-17/ed-1/?sp=11&q=bicycle+Bicycling+Safeties+safety</id>
+	<id>https://www.loc.gov/resource/sn85058130/1889-03-17/ed-1/?sp=11&amp;q=bicycle+Bicycling+Safeties+safety</id>
 	<rel>1</rel>
 	<text>ASTRIDE THE WHEEL
 Another Plea in Behalf of the
