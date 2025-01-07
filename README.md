@@ -54,7 +54,7 @@ Another Plea in Behalf of the
 Each `<topic>` tag should contain an `<id>`, with the URL of the Research Guide, and a `<results>` tag with one or more `<result>` tags.  Each `<result>` contains:
 * an `<id>` tag with the URL of the newspaper page,
 * a `<rel>` tag containing 1 for relevant or 0 for non-relevant, and
-* a `<text>` tag, if the document is relevant, containing the text of the relevant passage.  If the document is not relevant, you should omit this tag.
+* a `<text>` tag, if the document is relevant, containing the text of the relevant passage.  Relevant passages do not need to contain the query terms, although they may.  If the document is not relevant, you should omit this tag.
 
 To find the text of a newspaper page, click on the &ldquo;Image w/Text&rdquo; link just above the image.  For example, [here is the text of the first result for the Bicycle Craze topic](https://www.loc.gov/resource/sn85058130/1889-02-24/ed-1/?sp=6&q=bicycles+safety&st=text).  (Note that you could also construct this link by appending `&st=text` to the main URL for the newspaper page.) Select the text of the relevant passage and copy it into the `<text>` tag for the result.  Your XML editor may complain about ampersands in the URL. You can replace them with `&amp;` if need be.
 
