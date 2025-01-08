@@ -2,6 +2,8 @@
 
 TLDR: In this assignment, you will choose three topics represented in the _Chronicling America_ collection of historic newspapers and record the text of passages relevant to those topics in the file `topics.xml`.
 
+Since this is the first homework, please include your name in the README.md file you submit, so that we can map GitHub user names to the class roster.
+
 As we discussed in class, the most common way to evaluate ad hoc information retrieval systems is to create *test collections*, as in the [Text Retrieval Conferences (TREC)](https://trec.nist.gov/) run by the US [National Institute of Standards and Technology](https://www.nist.gov/). These consist of a set of information needs, called *topics*. Each topic contains a brief query (the **title**) and longer natural language query (the **description**) and an even longer **narrative** that explains what the user was looking for an what kinds of information count as relevant or not for that information need.
 
 Here is one example TREC topic:
